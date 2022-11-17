@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.transbox {
+    background: rgba(89, 90, 89, 0.5)
+  }
+
+.material-symbols-outlined {
+    color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.span_design{
+    color:rgba(250, 108, 83, 0.979);
+    text-decoration:underline black;
+}
+
+.main_line{
+    font-weight: 700;
+    color: white;
+}
+
+.description{
+    color: rgb(212, 211, 211);
+}
+
+.font-orange{
+    color: rgba(248, 105, 80, 0.979);
+}
+
+.list{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+
+.list:hover{
+    color:rgba(248, 122, 99, 0.979);
+}
+
+.section_1{
+    background: url("/resource/image.jpg") no-repeat;
+    background-size:100% 100%;
+    height: 62vh;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-right{
+    color: rgba(248, 122, 99, 0.979);    
+    font-size: 24px;
+    border:rgba(248, 122, 99, 0.979) solid;
+    border-radius: 100%;  
+    padding: 2px 1px 15px 12px; 
+    width:45px;
+    height: 45px;
+}
+.logo-left{
+    margin-left: 3px;  
+    font-size: 24px;
+    background-color: rgba(248, 122, 99, 0.979);
+    border-color: rgba(248, 122, 99, 0.979);
+    padding: 5px 1px 5px 7px;
+    width:110px;
+    height: 44px ;
+}
+
+.signup{
+    background-color: rgba(248, 122, 99, 0.979);
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    border-radius:30px;
+}
+
+.request_button{
+    background-color: white;
+    color: black;
+    border-radius: 35px;
+}
+
+.play_button{
+    background-color: rgba(248, 122, 99, 0.979);
+    border-radius: 40px;
+    width: 55px;
+}
+
+.section_2{
+    background-color: whitesmoke;
+    height: 115vh;
+}
+
+.services{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(214, 211, 211);
+    background-color:white;
+}
+
+.services i{
+    border-radius: 10px;
+    background-color: rgba(250, 108, 83, 0.979);
+}
+
+.info{
+    font-size: 15px;
+    color: gray;
+}
+
+.heading{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.feature{
+    padding-left:5px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 208, 193, 0.979);
+    border-radius: 15px;
+}
+
+.feature i{
+    font-size: 35px;
+    color: rgba(248, 122, 99, 0.979);
+}
+
+.feature_top{
+    font-size: 12px;
+
+}
+
+.feature_top p{
+    margin-bottom:0px;
+    padding: 0;
+    
+}
+
+
+
+.plan-card{
+    box-shadow: 1px 5px 25px rgb(209, 208, 208);
+    transition: all 0.3s ease-in-out;
+    border: 3px solid white;
+
+}
+
+.plan-card:hover {
+    border: 3px solid rgba(250, 108, 83, 0.979);
+}
+
+.plan{
+    font-size: 15px;
+    margin: 0;
+}
+
+.price{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding-bottom: 5px;
+    margin: 0; 
+  }
+
+ul li{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.green{
+    color: rgb(22, 165, 9);
+}
+
+.sign-up-button{
+    background-color: rgb(43, 41, 41);
+    margin-left: 50px;
+}
+
+.photo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.comment{
+    border: 1px solid darkgray;
+}
+
+.name{
+    font-size: 13px;
+    color: rgb(145, 143, 143);
+}
+
+.quote{
+    color: rgb(17, 0, 24);
+}
+
+.section_4{
+    background-color: whitesmoke;
+}
+
+
+.designation{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(83, 82, 82);
+}
+
+footer{
+    background-color: rgba(248, 105, 80, 0.979);
+}
+
+footer p{
+    font-size: 15px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .info {
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+    .list-group{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
